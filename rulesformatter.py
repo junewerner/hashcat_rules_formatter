@@ -77,7 +77,7 @@ def print_rule(line, num_args):
     # for each arg in function, determine if hex or not and print
     for arg in range(0,num_args):
         if len(line) > 2 and line[0]=='\\' and line[1]=='x':
-            print(line[:5], end ="")
+            print(line[:4], end ="")
             line = line[5:]
             num_consumed += 4
         else:
