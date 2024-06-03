@@ -5,7 +5,7 @@ Formats hashcat rules files into a more readable format
 syntax: python rulesformatter.py file
 ```
 
-##Example:
+## Example:
 
 input file:
 ```
